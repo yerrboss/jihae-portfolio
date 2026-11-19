@@ -271,7 +271,7 @@
                     <!-- Call To Action Buttons -->
                     <div class="flex flex-wrap items-center gap-3 pt-2 font-mono text-xs">
                         <a href="#projects" class="interactive-target px-5 py-3 bg-amber-accent text-black font-bold uppercase tracking-wider flex items-center gap-2 hover:bg-amber-400 transition-colors">
-                            <span>Inspect 6 Production Works</span>
+                            <span>Inspect 10 Production Works</span>
                             <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
                         </a>
                         <a href="#topology" class="interactive-target px-5 py-3 bg-obsidian-panel border border-obsidian-border text-white uppercase tracking-wider flex items-center gap-2 hover:border-amber-accent transition-colors">
@@ -410,7 +410,7 @@
 
                 <!-- Filter Matrix -->
                 <div class="flex flex-wrap items-center gap-1.5 font-mono text-xs bg-obsidian-panel p-1 border border-obsidian-border">
-                    <button class="proj-filter-btn active px-3 py-1.5 bg-amber-accent text-black font-bold" data-filter="all">All (6)</button>
+                    <button class="proj-filter-btn active px-3 py-1.5 bg-amber-accent text-black font-bold" data-filter="all">All (10)</button>
                     <button class="proj-filter-btn px-3 py-1.5 text-steel hover:text-white" data-filter="systems">Systems / TCP</button>
                     <button class="proj-filter-btn px-3 py-1.5 text-steel hover:text-white" data-filter="3d">3D WebGL / Canvas</button>
                     <button class="proj-filter-btn px-3 py-1.5 text-steel hover:text-white" data-filter="fullstack">Fullstack Web</button>
@@ -639,6 +639,54 @@
                 description: 'An 8K multi-process Electron video wall control engine built with raw TCP socket architecture (`net.Socket`), IPC pipelines, and hardware-accelerated grid rendering.',
                 challenges: 'Eliminating frame desynchronization across 16 multi-grid displays under high network load through binary buffer alignment.',
                 stack: ['Electron', 'TypeScript', 'Node.js TCP', 'IPC Pipelines'],
+                repo: 'https://github.com/yerrboss',
+                demo: '#'
+            },
+            {
+                id: 'tacotaco',
+                title: 'TacoTaco Interactive Pixel Map',
+                category: 'fullstack',
+                categoryLabel: 'Interactive Map / Localization',
+                badge: '7-Lang Pixel Canvas',
+                description: 'Retro pixel-arcade interactive map experience built with Leaflet, pixelated tiles, live Open-Meteo weather synced to spot coordinates, and canvas rain/snow effects.',
+                challenges: 'Synchronizing 5 Seoul spot jumpers, a 2-page menu/origin modal, passcode-gated admin controls, and 7-language localization without UI lag.',
+                stack: ['HTML5 Canvas', 'Leaflet', 'Open-Meteo API', '7-Lang i18n'],
+                repo: 'https://github.com/yerrboss',
+                demo: '#'
+            },
+            {
+                id: 'gratitude-jar',
+                title: 'Gratitude Jar Workspace',
+                category: 'fullstack',
+                categoryLabel: 'Fullstack / Firebase',
+                badge: 'Firestore + Smooth Drop',
+                description: 'Firebase-authenticated gratitude journal backed by Firestore with per-user persistence, inline auth/action feedback, searchable notes, and a "Draw one" note drawer.',
+                challenges: 'Engineering smooth note-drop settling animations and a forgiving daily streak tracker while keeping Firestore queries and modal states predictable.',
+                stack: ['JavaScript', 'Firebase Auth', 'Firestore', 'CSS Animations'],
+                repo: 'https://github.com/yerrboss',
+                demo: '#'
+            },
+            {
+                id: 'buddle',
+                title: 'Buddle Interactive Web App',
+                category: 'fullstack',
+                categoryLabel: 'Frontend / Interactive UX',
+                badge: '0-to-1 UX Build',
+                description: 'Interactive web experience and frontend workflow designed and implemented from 0 to 1 with responsive UI states and iterative prototyping.',
+                challenges: 'Refining interactive state transitions and visual polish across rapid prototyping iterations.',
+                stack: ['JavaScript', 'HTML5', 'CSS3', 'UI/UX'],
+                repo: 'https://github.com/yerrboss',
+                demo: '#'
+            },
+            {
+                id: 'pickl',
+                title: 'Pickl Seoul Hangout & Course App',
+                category: 'fullstack',
+                categoryLabel: 'Maps / Multi-Layout UI',
+                badge: 'v1–v3 Core Layouts',
+                description: 'Seoul place-curation and hangout-course builder featuring interactive maps, tag filtering, and three core layout directions (bento grid, map-first, and feed/radar + tension slider).',
+                challenges: 'Structuring distinct layout modes and course-building flows while keeping map views and card states modular.',
+                stack: ['React', 'Leaflet', 'Course Builder', 'Multi-Layout UI'],
                 repo: 'https://github.com/yerrboss',
                 demo: '#'
             },
